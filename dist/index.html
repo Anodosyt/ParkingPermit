@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta description = "Register your vehicle on this page to avoid the fine">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script src="https://kit.fontawesome.com/61989453fa.js" crossorigin="anonymous"></script>
+    <title>Parking permit project</title>
+</head>
+<body class="light">
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-link">
+                <a href="#">Home</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">Permits</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">Contacts</a>
+            </li>
+            <li class="nav-link">
+                <a href="#" id="themeChanger">Theme <i class="fas fa-sun"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="header">
+            <h1>Register your vehicle</h1>
+            <p>Make sure you add your Reg number, Name and the Type Of Permit</p>
+        </div>
+        
+            <!-- form wrapper -->
+            <form action="" id="permitForm" class="permit-form">
+
+                <!-- reg number line -->
+                <div class="registration-section">
+                    <label for="regNumber">Vehicle reg:</label>
+                    <input type="text" id="regNumber" style="text-transform:uppercase">
+                </div>
+
+                <!-- name line -->
+                <div class="name-section">
+                    <label for="regName">Name:</label>
+                    <input type="text" id="regName">
+                </div>
+
+                <!-- permit type line -->
+                <div class="type-section">
+                    <label for="regType">Type:</label>
+                    <select name="" id="regType">
+                        <option value="" disabled selected="selected">Choose type</option>
+                        <option value="staff">Staff</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+    
+                <!-- submit button -->
+                <input type="submit" value="Submit" id="submitButton" class="btn-submit">
+            </form>
+        
+        
+        
+        <div id="results">
+            
+            
+        </div>
+    </main>
+    
+</body>
+</html>

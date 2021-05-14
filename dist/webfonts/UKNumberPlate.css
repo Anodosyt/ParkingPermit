@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'UKNumberPlate';
+  src: url('UKNumberPlate.eot');
+      url('UKNumberPlate.eot?#') format('embedded-opentype'),
+      url('UKNumberPlate.woff') format('woff'),
+      url('UKNumberPlate.ttf') format('truetype');
+}
